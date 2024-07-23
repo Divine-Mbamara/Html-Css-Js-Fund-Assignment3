@@ -1,0 +1,208 @@
+/*body styling*/
+body{
+    background-color: red;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*make image take up the whole screen*/
+body img{
+    width: 100%;
+    height: auto;
+}
+/*make every div a flex container*/
+.movie-poster{
+    display: flex;
+    flex-direction: column;
+    text-align-last: center;
+}
+/*style text at the top of the movie poster*/
+.top-text{
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -320vh)
+}
+/*style movie name*/
+.heading{
+    position: relative;
+    color:bisque;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -85vh)
+}
+/*style movie name text*/
+.bigger-text{
+    font-size: 3.5em;
+}
+.big-text{
+    font-size: 2.3em;
+    position: relative;
+    top: -13px;
+}
+.red-dot{
+    font-size: 2em;
+    position: relative;
+    top: -18px;
+    color: red;
+}
+/*add line to top of movie name (second line)*/
+.heading-with-line .bigger-text{
+    border-top: 2px solid red;
+    padding-top: 0;
+}
+.heading-with-line .red-dot{
+    border-top: 2px solid red;
+    padding-top: 3.4px;
+}
+.heading-with-line .big-text{
+    border-top: 2px solid red;
+    padding-top: 4.4px;
+}
+/*style bottom text*/
+.bottom-text{
+    position: relative;
+    color: white;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -80vh)
+}
+.small-text{
+    font-size: 0.8em;
+}
+.smaller-text{
+    font-size: 0.4em;
+}
+/*style the soundtrack and book information at the bottom*/
+.soundtrack-book{
+    font-size: 0.3em;
+    color: white;
+    position: relative;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -80vh)
+}
+/*style the line around the soundtrack and book information*/
+.surrounding-line1{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.surrounding-line2{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+/*style the panavision symbol*/
+.panavision{
+    color: white;
+    position: relative;
+    left: 50%;
+    top: 95%;
+    transform: translate(-37%, -85.2vh)
+}
+.pan-text{
+    font-size: 0.6em;
+}
+.pan-circle{
+    font-size: 0.1em;
+    position: relative;
+    top: -2px;
+}
+/*style restricted information*/
+.restricted-symbol{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    max-width: 40px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 37.5px;
+    position: relative;
+    left: 50%;
+    top: 95%;
+    transform: translate(-4352%, -90vh);
+}
+.r-circle{
+    font-size: 0.1em;
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 50%;
+    transform: translate(-21.6%, -90vh);
+}
+.restricted{
+    position: relative;
+    left: 50%;
+    top: 95%;
+    transform: translate(-71%, -97.7vh)
+}
+.r-text{
+    color:white;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: 1px solid white;
+    max-width: 110px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.r-box{
+    font-size: 0.2em;
+    color:white;
+    border: 1px solid white;
+    max-width: 110px;
+    margin: -1px auto;
+    padding: 1px;
+}
+/*theatre styling*/
+.dolby-stereo{
+    font-size: 0.2em;
+    font-weight: bold;
+    color:white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    max-width: 50px;
+    position: relative;
+    left: 5%;
+    top: 95%;
+    transform: translate(720%, -101.5vh);
+}
+.theater{
+    font-size: 0.1em;
+    font-weight: bold;
+    color:white;
+    position: relative;
+    left: 5%;
+    top: 95%;
+    transform: translate(-17%, -101vh);
+}
+/*Warner Bros styling*/
+.warner-bros{
+    color: white;
+    line-height: 0px;
+    position: relative;
+    left: 5%;
+    top: 95%;
+    transform: translate(16%, -111vh);
+}
+.first-line{
+    font-size: 0.3em;
+    font-weight: bold;
+}
+.second-line{
+    font-size: 0.2em;
+}
+.third-line{
+    font-size: 0.1em;
+    font-weight: bold;
+}
