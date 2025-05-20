@@ -3,14 +3,15 @@ body{
     background-color: red;
     position: relative;
     width: 100%;
-    height: auto;
+    max-height: auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    object-fit: cover;
 }
 /*make image take up the whole screen*/
 body img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 /*make every div a flex container*/
@@ -19,6 +20,10 @@ body img{
     flex-direction: column;
     text-align-last: center;
 }
+.text-content {
+  position: relative;
+  transform: translateY(-110vh);
+}
 /*style text at the top of the movie poster*/
 .top-text{
     position: relative;
@@ -26,7 +31,7 @@ body img{
     font-size: 1.5em;
     left: 50%;
     top: 10%;
-    transform: translate(-50%, -320vh)
+    transform: translate(-50%, -100vh)
 }
 /*style movie name*/
 .heading{
