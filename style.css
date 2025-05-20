@@ -3,7 +3,7 @@ body{
     background-color: red;
     position: relative;
     width: 100%;
-    max-height: auto;
+    height: auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body img{
 }
 .text-content {
   position: relative;
-  transform: translateY(-110vh);
+  transform: translateY(-35vh);
 }
 /*style text at the top of the movie poster*/
 .top-text{
@@ -31,7 +31,7 @@ body img{
     font-size: 1.5em;
     left: 50%;
     top: 10%;
-    transform: translate(-50%, -100vh)
+    transform: translate(-50%, -180vh)
 }
 /*style movie name*/
 .heading{
